@@ -3,8 +3,10 @@
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .title a {
@@ -32,7 +34,6 @@
 .description {
   text-align: center;
 }
-
 
 .description {
   line-height: 1.5;
